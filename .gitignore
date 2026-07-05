@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Virtualenvs
+/backend/.venv/
+/.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pytest
+.cache/
+
+# SQLite
+database/*.db
+*.sqlite3
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Vite / build
+dist/
+frontend/dist/
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+
+# logs
+*.log
+
+# dotenv
+.env
+
+# other
+coverage/
